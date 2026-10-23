@@ -21,3 +21,46 @@
   object-fit: contain;
   display: block;
 }
+.site-footer {
+  background: linear-gradient(135deg, #102b4e, #183b63);
+  color: #ffffff;
+  padding: 35px 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer-logo img {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 15px;
+}
+
+.footer-logo a {
+  display: inline-block;
+}
+
+.site-footer p {
+  font-size: 13px;
+  margin: 12px 0;
+  color: #e1eaf7;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.footer-social a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.footer-social a:hover {
+  color: #60a5fa;
+}
